@@ -15,7 +15,7 @@ console.log(typeof valueInNumber);  // number
 // undefined => NaN
 // true => 1
 // false => 0
-// "Number" => number
+// "rani" => NaN
 
 console.log("========================>");
 let isLoggedIn = 1
@@ -24,7 +24,7 @@ console.log(booleanIsLoggedIn);
 
 // convets into boolean
 // 1 => true
-// 0 => false
+// 0 & " " => false
 // "Rani" => true
 //Notes + Investigation Study
 

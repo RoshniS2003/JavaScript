@@ -1,6 +1,6 @@
 "use strict" // treat all JS as newer version
 
-// alert(3+3)  // we are using node.js not browser
+// alert(3+3)  // we are using node.js not browser. In browser inside console they give popup msg
 
 // console.log(3+3) console.log("Rani")  
 // console.log(3+3);  console.log("Rani")  ===>> code readability should be high
@@ -18,7 +18,7 @@ let state;
 // string => " "
 // boolean => true false
 // null => standalone value
-// undefined => variable is defined but value not defined
+// undefined => variable is declared but value is not defined
 // symbol => unique
 
 // object

@@ -16,4 +16,4 @@ console.table([accountID , accountName , accountState , accountPassword , accoun
 
 
 /*  prefer not to use var
-baecause of issues in block scope {} and functional scope */
+because of issues in block scope {} and functional scope */
