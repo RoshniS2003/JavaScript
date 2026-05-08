@@ -10,7 +10,8 @@ console.log(anotherEmail);
 console.log("----------------->>>>");
 let user1 = {
     email : "roshni@gmail.com" ,
-    name : "Roshni"
+    name : "Roshni",
+    age : "18"
 }
 // console.log(user1);
 
