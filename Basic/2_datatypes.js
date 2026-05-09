@@ -13,13 +13,18 @@ let isLoggedIn = false
 let state;
 
 // Datatypes:---->>
+// primitive datatypes
 // number => 2
 // bigint
 // string => " "
 // boolean => true false
-// null => standalone value
+// null => standalone value (empty)
 // undefined => variable is declared but value is not defined
 // symbol => unique
+
+// Reference (non-primitive dataypes)
+// Array , function and Objects
+
 
 // object
 console.log(typeof name);
