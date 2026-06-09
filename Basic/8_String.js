@@ -21,12 +21,12 @@ console.log(newstring1);
 
 const newStringOne = "    Roshni   "
 console.log(newStringOne)
-console.log(newStringOne.trim());
+console.log(newStringOne.trim());  // trim remove the space
 
 const url = "https://roshni&08.com"
 console.log(url.replace("&" , "_"));
 console.log(url.includes("roshni"));
-
+console.log(url.includes("rani"));
 
 const strName = new String("roshni-08-com")
 console.log(strName.split("-"));
