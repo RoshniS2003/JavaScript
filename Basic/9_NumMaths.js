@@ -29,6 +29,3 @@ console.log(Math.max(2,5,4,0,7));
 console.log(Math.min(2,5,4,0,7));
 console.log(Math.random());    // random value between 0 to 1
 console.log(Math.random() * 10);
-
-
-
