@@ -24,14 +24,12 @@ console.log(booleanIsLoggedIn);
 
 // convets into boolean
 // 1 => true
-// 0 & " " => false
+// 0 & "" => false
 // "Rani" => true
 //Notes + Investigation Study
 
 console.log("-------------------------->>");
 let Num=11
 let someNum = String(Num)
-console.log(someNum);
+console.log(someNum);   // output is given in the form of number but typeof is String
 console.log(typeof someNum);
-
-

@@ -11,6 +11,7 @@ let name="Roshni"
 let age=18
 let isLoggedIn = false
 let state;
+// let state = null;  value is empty not undefined
 
 // Datatypes:---->>
 // primitive datatypes

@@ -1,5 +1,5 @@
-// non-primitive datatypes
-// string
+// non-primitive datatypes (Array , Object , Function)
+// Array
 const student = ["Rani" , "Roshni" ,"pinku" ,"payal"]
 let myobj = {
      name : "Roshni",
@@ -11,11 +11,11 @@ let myobj = {
 const myFunction = function() {
     console.log("Hello Roshni"); 
 }
-console.log(typeof myFunction);  // object function
+console.log(typeof myFunction);  // object-->> function
 
 // pimitive
 const isLoggedIn = false
-const outSideTemp = null
+const outSideTemp = null  // typeof null is object
 let email;
 console.table([isLoggedIn , outSideTemp, email ])
 console.log(typeof outSideTemp);
@@ -29,6 +29,7 @@ console.log(id === anotherId);
 // bigInt
 const bigNumber = 1234778887634252673n
 console.log(bigNumber);
+console.log(typeof bigNumber);
 
 // typeof operator & Return type of variables in JS
 // Primitive Datatypes:
@@ -40,7 +41,7 @@ console.log(bigNumber);
     // BigInt => BigInt
     // Symbol => Symbol
 
-    // // non-promitive datatypes
+    // // non-promitive datatypes (Reference)
     // function => object function
      // Array => Object
      // Object => object
