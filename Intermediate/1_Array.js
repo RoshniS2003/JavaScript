@@ -1,5 +1,5 @@
 // array size are resizeable(badh sakti)
-const myArr = [10,20,30,40]
+const myArr = [10,20,30,40]  // boolean value also write like true false
 const flowName = ["Rose" ,"Sunflower" , "lotus"]
 console.log(myArr[1]);
 console.log(typeof myArr);
@@ -29,9 +29,8 @@ console.log("A" , myArr);  // original value
 
 const myn1 = myArr.slice(1,3)
 console.log(myn1);
-console.log("B" , myArr);
+console.log("B" , myArr); // In slice its gives same original value
  
 const myn2 = myArr.splice(1,3)
 console.log(myn2);
-console.log("C" , myArr);
-
+console.log("C" , myArr);  // In splice its remove splice value and remaining value shows
