@@ -16,8 +16,6 @@ function myFun(){
 myFun()  // execution
 
 
-
-
 console.log("1st method------------------------->>>>");
 
 // 1st Method
@@ -27,7 +25,7 @@ function addTwoNumbers(num1 , num2){   // function define & value num1 , num2 is
 addTwoNumbers()  //NaN (no arguments)
 // addTwoNumbers(3, "a")    // 3a
 // addTwoNumbers(3, "5")    // 35
-addTwoNumbers(3 , 2)   // 5  :--->> function call (arguments pass)
+// addTwoNumbers(3 , 2)   // 5  :--->> function call (arguments pass)
 const result = addTwoNumbers(3 , 2)
 console.log("Result=",result);  // undefined
 
@@ -47,18 +45,18 @@ const result1 = addTwoNum(3 , 2)
 console.log("Result=",result1); 
 
 
-console.log("------------------------->>>>");
+console.log("---3rd method---------------------->>>>");
 
 function loginUserMessage(username){
     return `${username} just logged In`
 }
+loginUserMessage("Roshni")   // its says return only value.. not to print the msg
 console.log(loginUserMessage("Roshni"))
 console.log(loginUserMessage(""))   // empty
 console.log(loginUserMessage())  // undefined
-loginUserMessage("Roshni")   // its says return only value.. not to print the msg
 
 
-console.log("------------------------->>>>");
+console.log("---4th method---------------------->>>>");
 
 function loginUserMessage1(username){
     if (username === undefined) {     // !username
@@ -71,13 +69,13 @@ console.log(loginUserMessage1())
 
 
 
-// console.log("------------------------->>>>");
+console.log("---5th method---------------------->>>>");
 
-// function loginUserMessage1(username = "roshni"){
-//     if (username === undefined) {     // !username
-//         console.log("please enter username"); 
-//         return
-//     }
-//     return `${username} just logged In`   // using return word its line is not print
-// }
-// console.log(loginUserMessage1("Rani"))
+function loginUserMessage2(username = "roshni"){
+    if (username === undefined) {     // !username
+        console.log("please enter username"); 
+        return   // using return word next msg is not print
+    }
+    return `${username} just logged In`   
+}
+console.log(loginUserMessage2("Rani"))
